@@ -1,5 +1,7 @@
 .jumbotron {
   margin: 25px;
+  border-style: solid;
+  background-image: linear-gradient(to right top, #e1ebe1, #c5e2d7, #a6d9d7, #8acedd, #79c0e5, #70b5ed, #77a8f2, #8b98f0, #9a89f1, #ae77ed, #c65fe1, #dd3bcf)
 }
 
 body {
@@ -9,7 +11,11 @@ body {
 p {
   font-size: large;
 }
+#output {
+  display: none;
+}
 
-.jumbotron {
-  
+#big-button {
+  color: black;
+  margin-top: 15px;
 }
