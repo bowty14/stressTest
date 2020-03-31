@@ -1,1 +1,15 @@
- 
+.jumbotron {
+  margin: 25px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+p {
+  font-size: large;
+}
+
+.jumbotron {
+  
+}

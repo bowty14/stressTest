@@ -10,18 +10,51 @@
  <body>
    <div class="container">
      <div class="jumbotron">
-    <h1>Unstress test</h1>
-    <p>Are you stressed out? Don't know what to do? Well neither do I, you've come to the wrong place. Since you're here why not take this pointless stress test developed by non-pysch students that means nothing.</p>
-    <blockquote>
-      <p>Just chill bruh!</p>
+      <h1>Unstress test</h1>
+      <p>Hey all you cool cats and kittens! Are you stressed out? Don't know what to do? Well neither do I, you've come to the wrong place. But, since you're here why not take this pointless stress test developed by non-pysch students that means nothing.</p>
+      <blockquote>
+      <p>Just <em>chill</em> bruh!</p>
       <footer><em>Oprah Winfrey or Buddha</em></footer>
     </blockquote>
      </div>
     <form id="stressTest">
     <div class="form-group">
-      <p></p>
-      </form>
+      <!-- Below will be warning signs checkboxes -->
+      <p>Are you experiencecing any of the following warning signs? (Click all that apply/if any)</p>
+      <input type="checkbox" name="stress-test" value="sleep">Loss of sleep<br>
+      <input type="checkbox" name="stress-test" value="overwhelmed">Feeling overwhelmed<br>
+      <input type="checkbox" name="stress-test" value="gain">Weight gain<br>
+      <input type="checkbox" name="stress-test" value="loss">Loss of appetite<br>
+      <!-- Below will be Health symptoms checkboxes -->     
+    </br>
+      <p>Are you experiencecing any of the following health symptoms? (Click all that apply/if any)</p>
+      <input type="checkbox" name="stress-test" value="anxiety"> Anxiety<br>
+      <input type="checkbox" name="stress-test" value="blood">High blood pressure<br>
+      <input type="checkbox" name="stress-test" value="head">Headaches<br>
+      <input type="checkbox" name="stress-test" value="chest">Chest pain<br>
+      <!-- Below will be coping mechanisms checkboxes -->
+    </br>
+      <p>Which of the following coping mechanisms have you tried? (Click all that apply/if any)</p>
+      <input type="checkbox" name="stress-test" value="med">Meditation<br>
+      <input type="checkbox" name="stress-test" value="tiger">Pet a mini tiger<br>
+      <input type="checkbox" name="stress-test" value="work-out">Excercise<br>
+      <input type="checkbox" name="stress-test" value="model">Build a model airplane<br>
+      <!-- Button will go below -->
+      </br>
+      <button type="submit" class=" btn btn-success">Don't let how big this button is stress you out, just submit.</button>
     </div>
+    </form>
+    <span id="warning">
+    
+    </span>
+    <br>
+    <span id="symptoms">
+
+    </span>
+    <br>
+    <span id="coping">
+      
+    </span>
   </div>  
  </body>
  </html>
